@@ -1,0 +1,141 @@
+.banner {
+  min-height: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 15%;
+  padding-top: 7.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.banner h2 {
+  color: rgb(255 255 255 / 95%);
+  font-size: 2.5rem;
+  margin: 0;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.banner h2 span {
+  font-weight: 400;
+}
+
+.banner h3 {
+  line-height: normal;
+}
+
+img.icon {
+  width: 220px;
+  animation: morph 3s ease-in-out infinite;
+  /* box-shadow: 0 0 2pt 4pt rgb(255 255 255 / 50%); */
+}
+
+.greetings {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.scroll-div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.scroll {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  animation: float 3s ease-in-out infinite;
+  /* background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 12%);
+  backdrop-filter: blur(7px);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+
+.scroll svg {
+  height: 3rem;
+}
+
+/* .greetings button {
+  cursor: pointer;
+  width: 10rem;
+  height: 3rem;
+  color: #f8f9fa;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: 1px solid #f8f9fa;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.greetings button:hover {
+  color: #f8f9fa;
+  border: 1px solid rgba(135, 107, 219, 0.5);
+  background: rgba(135, 107, 219, 0.5);
+} */
+
+@keyframes morph {
+  0%,
+  100% {
+    border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+  }
+  34% {
+    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+  }
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .banner {
+    margin: 0 20%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .banner {
+    margin: 0 25%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .banner {
+    margin: 0 10%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .banner {
+    gap: 3rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-items: center;
+    /* padding: 25% 0% 10%; */
+  }
+
+  .greetings {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .banner {
+    margin: 0 5%;
+  }
+}

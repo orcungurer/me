@@ -1,0 +1,106 @@
+.about {
+  margin: 0 15% 2rem;
+  padding-top: 6rem;
+}
+
+.about h3 {
+  font-size: 2rem;
+}
+
+.list {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.card {
+  flex-grow: 1;
+}
+
+.type {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.career-items {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.icon svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.career-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.career-item span {
+  display: flex;
+}
+
+.career-details {
+  gap: 0.25rem;
+}
+
+.career-details p {
+  margin: 0;
+}
+
+.title {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.company, .date {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.85rem;
+}
+
+@media screen and (min-width: 1500px) {
+  .about {
+    margin: 0 20% 2rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .about {
+    margin: 0 25% 2rem;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .about {
+    margin: 0 10% 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    margin: 0 5% 2rem;
+    text-align: center;
+  }
+
+  .list {
+    flex-direction: column;
+  }
+
+  .career-items {
+    flex-direction: column;
+  }
+  
+  .career-item {
+    flex-direction: column;
+  }
+
+  .career-details {
+    display: flex;
+    flex-direction: column;
+  }
+}

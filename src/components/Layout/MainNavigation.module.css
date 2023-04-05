@@ -1,0 +1,72 @@
+.header {
+  width: 100%;
+  margin: auto;
+  padding: 0 15%;
+  background-color: #1d1c21;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+}
+
+.header img {
+  width: 4rem;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.list a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.list a:hover,
+.list a.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.logo {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1500px) {
+  .header {
+    padding: 0 20%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .header {
+    padding: 0 25%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .header {
+    padding: 0 10%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    padding: 0 5%;
+  }
+
+  .header img {
+    width: 3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .list {
+    display: flex;
+    gap: 0.5rem;
+  }
+}

@@ -1,0 +1,116 @@
+.tech-stack {
+  margin: 0 15%;
+  /* padding-top: 5rem; */
+}
+
+.tech-stack h3 {
+  font-size: 2rem;
+}
+
+.list {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /*
+    dynamic gap here
+    .card
+      width: calc(100/itemAmountToShow - 10px); 
+  */
+}
+
+.list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+@media screen and (min-width: 495px) and (max-width: 1085px) {
+  .list {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .list svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1086px) {
+  .list {
+    gap: 0.5rem;
+  }
+
+  .list svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .tech-stack {
+    margin: 0 20%;
+  }
+
+  .list svg {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .tech-stack {
+    margin: 0 25%;
+  }
+}
+
+@media screen and (min-width: 1670px) {
+  .list svg {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .tech-stack {
+    margin: 0 10%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tech-stack {
+    margin: 0 5%;
+    padding-top: 2rem;
+  }
+
+  .tech-stack h3 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .list {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .list svg {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .list svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

@@ -1,0 +1,43 @@
+.projects {
+  margin: 0 15%;
+  padding-top: 6rem;
+}
+
+.projects h3 {
+  font-size: 2rem;
+}
+
+.list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 1500px) {
+  .projects {
+    margin: 0 20%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .projects {
+    margin: 0 25%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .projects {
+    margin: 0 10%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .projects h3 {
+    text-align: center;
+  }
+
+  .projects {
+    margin: 0 5%;
+  }
+}

@@ -5,10 +5,13 @@ import ErrorPage from "./pages/Error";
 // import AboutPage from "./pages/About";
 // import ProjectsPage from "./pages/Projects";
 
+// note: path is /me since it is published as
+// orcungurer.github.io/me on github.
+
 // 1: route definitions
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/me",
     element: <RootLayout />,
     errorElement: <ErrorPage />,
     children: [

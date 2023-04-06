@@ -11,7 +11,7 @@ const ErrorPage = () => {
       <PageContent title="Not Found">
         <img src={lost} alt="not found" />
         Lost your way?
-        <Link to="/">Home</Link>
+        <Link to="/me">Home</Link>
       </PageContent>
     </Fragment>
   );

@@ -4,11 +4,14 @@ import og from "../../assets/ogwhite.svg";
 import { useNavigate } from "react-router-dom";
 import { navigationLinks } from "../data";
 
+// note: navigate to /me since it is published as
+// orcungurer.github.io/me on github.
+
 const MainNavigation = () => {
   const navigate = useNavigate();
 
   const homeHandler = () => {
-    navigate("/");
+    navigate("/me");
     scroll.scrollToTop();
   };
 

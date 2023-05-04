@@ -13,6 +13,9 @@ import ReactIcon from "./Icons/ReactIcon";
 import ReactRouterIcon from "./Icons/ReactRouterIcon";
 import FirebaseIcon from "./Icons/FirebaseIcon";
 import ReduxIcon from "./Icons/ReduxIcon";
+import NextIcon from "./Icons/NextIcon";
+import GitIcon from "./Icons/GitIcon";
+import MongoDBIcon from "./Icons/MongoDBIcon";
 // about
 import CompanyIcon from "./Icons/CompanyIcon";
 import EducationIcon from "./Icons/EducationIcon";
@@ -24,9 +27,10 @@ import EmailIcon from "./Icons/EmailIcon";
 // ------------------------------------------------------------------------
 // README
 // 1: MainNavigation.js : navigationLinks -> home, projects, about, contact
-// 2: Projects.js       : projects -> tunetown, eventzone, trendyol, kindi
-// 3: About.js          : about    -> job experience, education history
-// 4: Footer.js         : socials  -> linkedin, github, email
+// 2: TechStacj.js      :  
+// 3: Projects.js       : projects -> tunetown, eventzone, trendyol, kindi
+// 4: About.js          : about    -> job experience, education history
+// 5: Footer.js         : socials  -> linkedin, github, email
 // ------------------------------------------------------------------------
 
 export const navigationLinks = [
@@ -45,6 +49,58 @@ export const navigationLinks = [
   {
     to: "contact",
     title: "Contact",
+  },
+];
+
+
+export const techStack = [
+  {
+    id: "html",
+    icon: <HtmlIcon />,
+  },
+  {
+    id: "css",
+    icon: <CssIcon />,
+  },
+  {
+    id: "javascript",
+    icon: <JavascriptIcon />,
+  },
+  {
+    id: "bootstrap",
+    icon: <BootstrapIcon />,
+  },
+  {
+    id: "scss",
+    icon: <ScssIcon />,
+  },
+  {
+    id: "react",
+    icon: <ReactIcon />,
+  },
+  {
+    id: "redux",
+    icon: <ReduxIcon />,
+  },
+  {
+    id: "reactrouter",
+    icon: <ReactRouterIcon />,
+  },
+  {
+    id: "next",
+    icon: <NextIcon />,
+  },
+  {
+    id: "git",
+    icon: <GitIcon />,
+  },
+  {
+    id: "mongodb",
+    icon: <MongoDBIcon />,
+  },
+  {
+    id: "firebase",
+    icon: <FirebaseIcon />,
   },
 ];
 

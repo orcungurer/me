@@ -16,6 +16,7 @@ import ReduxIcon from "./Icons/ReduxIcon";
 import NextIcon from "./Icons/NextIcon";
 import GitIcon from "./Icons/GitIcon";
 import MongoDBIcon from "./Icons/MongoDBIcon";
+import JestIcon from "./Icons/JestIcon";
 // about
 import CompanyIcon from "./Icons/CompanyIcon";
 import EducationIcon from "./Icons/EducationIcon";
@@ -27,10 +28,10 @@ import EmailIcon from "./Icons/EmailIcon";
 // ------------------------------------------------------------------------
 // README
 // 1: MainNavigation.js : navigationLinks -> home, projects, about, contact
-// 2: TechStacj.js      :  
-// 3: Projects.js       : projects -> tunetown, eventzone, trendyol, kindi
-// 4: About.js          : about    -> job experience, education history
-// 5: Footer.js         : socials  -> linkedin, github, email
+// 2: TechStack.js      : teckStack -> technologies
+// 3: Projects.js       : projects  -> tunetown, eventzone, trendyol, kindi
+// 4: About.js          : about     -> job experience, education history
+// 5: Footer.js         : socials   -> linkedin, github, email
 // ------------------------------------------------------------------------
 
 export const navigationLinks = [
@@ -101,6 +102,10 @@ export const techStack = [
   {
     id: "firebase",
     icon: <FirebaseIcon />,
+  },
+  {
+    id: "jest",
+    icon: <JestIcon />,
   },
 ];
 

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/me/static/css/main.c4d92cca.css",
-    "main.js": "/me/static/js/main.742d4b33.js",
+    "main.js": "/me/static/js/main.56d7bd8a.js",
     "static/media/orcun.jpg": "/me/static/media/orcun.b89b0cc911fec09a2eba.jpg",
     "static/media/tunetown.png": "/me/static/media/tunetown.2b65405001d0d01aedd3.png",
     "static/media/kindi.png": "/me/static/media/kindi.677a1ac9c2bff833a309.png",
@@ -11,10 +11,10 @@
     "static/media/ogwhite.svg": "/me/static/media/ogwhite.b9ccce7311b2bdf935fed503054216a5.svg",
     "index.html": "/me/index.html",
     "main.c4d92cca.css.map": "/me/static/css/main.c4d92cca.css.map",
-    "main.742d4b33.js.map": "/me/static/js/main.742d4b33.js.map"
+    "main.56d7bd8a.js.map": "/me/static/js/main.56d7bd8a.js.map"
   },
   "entrypoints": [
     "static/css/main.c4d92cca.css",
-    "static/js/main.742d4b33.js"
+    "static/js/main.56d7bd8a.js"
   ]
 }

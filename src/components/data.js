@@ -53,7 +53,6 @@ export const navigationLinks = [
   },
 ];
 
-
 export const techStack = [
   {
     id: "html",
@@ -117,7 +116,14 @@ export const projects = [
     description:
       "Tune Town is a unique music app built with React and Redux Toolkit. With its modern and user-friendly interface, it enables users to easily filter, select, and order their favorite music albums.",
     // that allows users to easily filter, select, and order their favorite music albums with its modern and user-friendly interface.
-    techs: [<ReactIcon />, <ReduxIcon />, <FirebaseIcon />],
+    techs: [
+      <HtmlIcon />,
+      <CssIcon />,
+      <JavascriptIcon />,
+      <ReactIcon />,
+      <ReduxIcon />,
+      <FirebaseIcon />,
+    ],
     link: "https://orcungurer.github.io/tunetown/",
   },
   {
@@ -126,7 +132,14 @@ export const projects = [
     image: eventzone,
     description:
       "EventZone is an all-in-one event listing application that leverages the power of React Router to provide seamless event creation, preview, editing, and deletion.",
-    techs: [<ReactIcon />, <ReactRouterIcon />, <FirebaseIcon />],
+    techs: [
+      <HtmlIcon />,
+      <CssIcon />,
+      <JavascriptIcon />,
+      <ReactIcon />,
+      <ReactRouterIcon />,
+      <FirebaseIcon />,
+    ],
     link: "https://orcungurer.github.io/eventzone/",
   },
   {

@@ -24,6 +24,7 @@ import EducationIcon from "./Icons/EducationIcon";
 import LinkedInIcon from "./Icons/LinkedInIcon";
 import GithubIcon from "./Icons/GithubIcon";
 import EmailIcon from "./Icons/EmailIcon";
+import TypescriptIcon from "./Icons/TypescriptIcon";
 
 // ------------------------------------------------------------------------
 // README
@@ -91,6 +92,14 @@ export const techStack = [
     icon: <NextIcon />,
   },
   {
+    id: "typescript",
+    icon: <TypescriptIcon />,
+  },
+  {
+    id: "jest",
+    icon: <JestIcon />,
+  },
+  {
     id: "git",
     icon: <GitIcon />,
   },
@@ -101,10 +110,6 @@ export const techStack = [
   {
     id: "firebase",
     icon: <FirebaseIcon />,
-  },
-  {
-    id: "jest",
-    icon: <JestIcon />,
   },
 ];
 

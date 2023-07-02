@@ -77,9 +77,9 @@
 }
 
 @media screen and (min-width: 1670px) {
-  /* TODO: this css for exact 13 items, update this part if items changes */
+  /* TODO: update this part if items changes */
   .card {
-    width: calc(7.69% - 0.5rem);
+    width: calc(9% - 0.5rem);
   }
 
   .list svg {

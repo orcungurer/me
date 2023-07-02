@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.c4d92cca.css",
-    "main.js": "/me/static/js/main.56d7bd8a.js",
+    "main.css": "/me/static/css/main.0e946cde.css",
+    "main.js": "/me/static/js/main.547e4ed4.js",
     "static/media/orcun.jpg": "/me/static/media/orcun.b89b0cc911fec09a2eba.jpg",
     "static/media/tunetown.png": "/me/static/media/tunetown.2b65405001d0d01aedd3.png",
     "static/media/kindi.png": "/me/static/media/kindi.677a1ac9c2bff833a309.png",
@@ -10,11 +10,11 @@
     "static/media/trendyol.png": "/me/static/media/trendyol.f0260b6164a2ecc649d1.png",
     "static/media/ogwhite.svg": "/me/static/media/ogwhite.b9ccce7311b2bdf935fed503054216a5.svg",
     "index.html": "/me/index.html",
-    "main.c4d92cca.css.map": "/me/static/css/main.c4d92cca.css.map",
-    "main.56d7bd8a.js.map": "/me/static/js/main.56d7bd8a.js.map"
+    "main.0e946cde.css.map": "/me/static/css/main.0e946cde.css.map",
+    "main.547e4ed4.js.map": "/me/static/js/main.547e4ed4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4d92cca.css",
-    "static/js/main.56d7bd8a.js"
+    "static/css/main.0e946cde.css",
+    "static/js/main.547e4ed4.js"
   ]
 }
